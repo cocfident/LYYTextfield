@@ -1,0 +1,525 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		B96F534F1D113C4B00A7980A /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = B96F534E1D113C4B00A7980A /* main.m */; };
+		B96F53521D113C4B00A7980A /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = B96F53511D113C4B00A7980A /* AppDelegate.m */; };
+		B96F53551D113C4C00A7980A /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = B96F53541D113C4B00A7980A /* ViewController.m */; };
+		B96F53581D113C4C00A7980A /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = B96F53561D113C4C00A7980A /* Main.storyboard */; };
+		B96F535A1D113C4C00A7980A /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = B96F53591D113C4C00A7980A /* Assets.xcassets */; };
+		B96F535D1D113C4C00A7980A /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = B96F535B1D113C4C00A7980A /* LaunchScreen.storyboard */; };
+		B96F53681D113C4C00A7980A /* LYYTextfieldTests.m in Sources */ = {isa = PBXBuildFile; fileRef = B96F53671D113C4C00A7980A /* LYYTextfieldTests.m */; };
+		B96F53731D113C4C00A7980A /* LYYTextfieldUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = B96F53721D113C4C00A7980A /* LYYTextfieldUITests.m */; };
+		B96F53821D113C6100A7980A /* LYYTextField.m in Sources */ = {isa = PBXBuildFile; fileRef = B96F53811D113C6100A7980A /* LYYTextField.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		B96F53641D113C4C00A7980A /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = B96F53421D113C4B00A7980A /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = B96F53491D113C4B00A7980A;
+			remoteInfo = LYYTextfield;
+		};
+		B96F536F1D113C4C00A7980A /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = B96F53421D113C4B00A7980A /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = B96F53491D113C4B00A7980A;
+			remoteInfo = LYYTextfield;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		B96F534A1D113C4B00A7980A /* LYYTextfield.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = LYYTextfield.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		B96F534E1D113C4B00A7980A /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		B96F53501D113C4B00A7980A /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		B96F53511D113C4B00A7980A /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		B96F53531D113C4B00A7980A /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
+		B96F53541D113C4B00A7980A /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
+		B96F53571D113C4C00A7980A /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		B96F53591D113C4C00A7980A /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		B96F535C1D113C4C00A7980A /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		B96F535E1D113C4C00A7980A /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		B96F53631D113C4C00A7980A /* LYYTextfieldTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = LYYTextfieldTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		B96F53671D113C4C00A7980A /* LYYTextfieldTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = LYYTextfieldTests.m; sourceTree = "<group>"; };
+		B96F53691D113C4C00A7980A /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		B96F536E1D113C4C00A7980A /* LYYTextfieldUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = LYYTextfieldUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		B96F53721D113C4C00A7980A /* LYYTextfieldUITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = LYYTextfieldUITests.m; sourceTree = "<group>"; };
+		B96F53741D113C4C00A7980A /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		B96F53801D113C6100A7980A /* LYYTextField.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = LYYTextField.h; sourceTree = "<group>"; };
+		B96F53811D113C6100A7980A /* LYYTextField.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = LYYTextField.m; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		B96F53471D113C4B00A7980A /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		B96F53601D113C4C00A7980A /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		B96F536B1D113C4C00A7980A /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		B96F53411D113C4B00A7980A = {
+			isa = PBXGroup;
+			children = (
+				B96F534C1D113C4B00A7980A /* LYYTextfield */,
+				B96F53661D113C4C00A7980A /* LYYTextfieldTests */,
+				B96F53711D113C4C00A7980A /* LYYTextfieldUITests */,
+				B96F534B1D113C4B00A7980A /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		B96F534B1D113C4B00A7980A /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				B96F534A1D113C4B00A7980A /* LYYTextfield.app */,
+				B96F53631D113C4C00A7980A /* LYYTextfieldTests.xctest */,
+				B96F536E1D113C4C00A7980A /* LYYTextfieldUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		B96F534C1D113C4B00A7980A /* LYYTextfield */ = {
+			isa = PBXGroup;
+			children = (
+				B96F53501D113C4B00A7980A /* AppDelegate.h */,
+				B96F53511D113C4B00A7980A /* AppDelegate.m */,
+				B96F53531D113C4B00A7980A /* ViewController.h */,
+				B96F53541D113C4B00A7980A /* ViewController.m */,
+				B96F53801D113C6100A7980A /* LYYTextField.h */,
+				B96F53811D113C6100A7980A /* LYYTextField.m */,
+				B96F53561D113C4C00A7980A /* Main.storyboard */,
+				B96F53591D113C4C00A7980A /* Assets.xcassets */,
+				B96F535B1D113C4C00A7980A /* LaunchScreen.storyboard */,
+				B96F535E1D113C4C00A7980A /* Info.plist */,
+				B96F534D1D113C4B00A7980A /* Supporting Files */,
+			);
+			path = LYYTextfield;
+			sourceTree = "<group>";
+		};
+		B96F534D1D113C4B00A7980A /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				B96F534E1D113C4B00A7980A /* main.m */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		B96F53661D113C4C00A7980A /* LYYTextfieldTests */ = {
+			isa = PBXGroup;
+			children = (
+				B96F53671D113C4C00A7980A /* LYYTextfieldTests.m */,
+				B96F53691D113C4C00A7980A /* Info.plist */,
+			);
+			path = LYYTextfieldTests;
+			sourceTree = "<group>";
+		};
+		B96F53711D113C4C00A7980A /* LYYTextfieldUITests */ = {
+			isa = PBXGroup;
+			children = (
+				B96F53721D113C4C00A7980A /* LYYTextfieldUITests.m */,
+				B96F53741D113C4C00A7980A /* Info.plist */,
+			);
+			path = LYYTextfieldUITests;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		B96F53491D113C4B00A7980A /* LYYTextfield */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = B96F53771D113C4C00A7980A /* Build configuration list for PBXNativeTarget "LYYTextfield" */;
+			buildPhases = (
+				B96F53461D113C4B00A7980A /* Sources */,
+				B96F53471D113C4B00A7980A /* Frameworks */,
+				B96F53481D113C4B00A7980A /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = LYYTextfield;
+			productName = LYYTextfield;
+			productReference = B96F534A1D113C4B00A7980A /* LYYTextfield.app */;
+			productType = "com.apple.product-type.application";
+		};
+		B96F53621D113C4C00A7980A /* LYYTextfieldTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = B96F537A1D113C4C00A7980A /* Build configuration list for PBXNativeTarget "LYYTextfieldTests" */;
+			buildPhases = (
+				B96F535F1D113C4C00A7980A /* Sources */,
+				B96F53601D113C4C00A7980A /* Frameworks */,
+				B96F53611D113C4C00A7980A /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				B96F53651D113C4C00A7980A /* PBXTargetDependency */,
+			);
+			name = LYYTextfieldTests;
+			productName = LYYTextfieldTests;
+			productReference = B96F53631D113C4C00A7980A /* LYYTextfieldTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		B96F536D1D113C4C00A7980A /* LYYTextfieldUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = B96F537D1D113C4C00A7980A /* Build configuration list for PBXNativeTarget "LYYTextfieldUITests" */;
+			buildPhases = (
+				B96F536A1D113C4C00A7980A /* Sources */,
+				B96F536B1D113C4C00A7980A /* Frameworks */,
+				B96F536C1D113C4C00A7980A /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				B96F53701D113C4C00A7980A /* PBXTargetDependency */,
+			);
+			name = LYYTextfieldUITests;
+			productName = LYYTextfieldUITests;
+			productReference = B96F536E1D113C4C00A7980A /* LYYTextfieldUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		B96F53421D113C4B00A7980A /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0730;
+				ORGANIZATIONNAME = "李运洋";
+				TargetAttributes = {
+					B96F53491D113C4B00A7980A = {
+						CreatedOnToolsVersion = 7.3.1;
+					};
+					B96F53621D113C4C00A7980A = {
+						CreatedOnToolsVersion = 7.3.1;
+						TestTargetID = B96F53491D113C4B00A7980A;
+					};
+					B96F536D1D113C4C00A7980A = {
+						CreatedOnToolsVersion = 7.3.1;
+						TestTargetID = B96F53491D113C4B00A7980A;
+					};
+				};
+			};
+			buildConfigurationList = B96F53451D113C4B00A7980A /* Build configuration list for PBXProject "LYYTextfield" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = B96F53411D113C4B00A7980A;
+			productRefGroup = B96F534B1D113C4B00A7980A /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				B96F53491D113C4B00A7980A /* LYYTextfield */,
+				B96F53621D113C4C00A7980A /* LYYTextfieldTests */,
+				B96F536D1D113C4C00A7980A /* LYYTextfieldUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		B96F53481D113C4B00A7980A /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				B96F535D1D113C4C00A7980A /* LaunchScreen.storyboard in Resources */,
+				B96F535A1D113C4C00A7980A /* Assets.xcassets in Resources */,
+				B96F53581D113C4C00A7980A /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		B96F53611D113C4C00A7980A /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		B96F536C1D113C4C00A7980A /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		B96F53461D113C4B00A7980A /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				B96F53821D113C6100A7980A /* LYYTextField.m in Sources */,
+				B96F53551D113C4C00A7980A /* ViewController.m in Sources */,
+				B96F53521D113C4B00A7980A /* AppDelegate.m in Sources */,
+				B96F534F1D113C4B00A7980A /* main.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		B96F535F1D113C4C00A7980A /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				B96F53681D113C4C00A7980A /* LYYTextfieldTests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		B96F536A1D113C4C00A7980A /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				B96F53731D113C4C00A7980A /* LYYTextfieldUITests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		B96F53651D113C4C00A7980A /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = B96F53491D113C4B00A7980A /* LYYTextfield */;
+			targetProxy = B96F53641D113C4C00A7980A /* PBXContainerItemProxy */;
+		};
+		B96F53701D113C4C00A7980A /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = B96F53491D113C4B00A7980A /* LYYTextfield */;
+			targetProxy = B96F536F1D113C4C00A7980A /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		B96F53561D113C4C00A7980A /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				B96F53571D113C4C00A7980A /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		B96F535B1D113C4C00A7980A /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				B96F535C1D113C4C00A7980A /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		B96F53751D113C4C00A7980A /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.3;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		B96F53761D113C4C00A7980A /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.3;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		B96F53781D113C4C00A7980A /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = LYYTextfield/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.xiaoyue.LYYTextfield;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		B96F53791D113C4C00A7980A /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = LYYTextfield/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.xiaoyue.LYYTextfield;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+		B96F537B1D113C4C00A7980A /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = LYYTextfieldTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.xiaoyue.LYYTextfieldTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/LYYTextfield.app/LYYTextfield";
+			};
+			name = Debug;
+		};
+		B96F537C1D113C4C00A7980A /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = LYYTextfieldTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.xiaoyue.LYYTextfieldTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/LYYTextfield.app/LYYTextfield";
+			};
+			name = Release;
+		};
+		B96F537E1D113C4C00A7980A /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				INFOPLIST_FILE = LYYTextfieldUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.xiaoyue.LYYTextfieldUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_TARGET_NAME = LYYTextfield;
+			};
+			name = Debug;
+		};
+		B96F537F1D113C4C00A7980A /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				INFOPLIST_FILE = LYYTextfieldUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.xiaoyue.LYYTextfieldUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_TARGET_NAME = LYYTextfield;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		B96F53451D113C4B00A7980A /* Build configuration list for PBXProject "LYYTextfield" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				B96F53751D113C4C00A7980A /* Debug */,
+				B96F53761D113C4C00A7980A /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		B96F53771D113C4C00A7980A /* Build configuration list for PBXNativeTarget "LYYTextfield" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				B96F53781D113C4C00A7980A /* Debug */,
+				B96F53791D113C4C00A7980A /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		B96F537A1D113C4C00A7980A /* Build configuration list for PBXNativeTarget "LYYTextfieldTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				B96F537B1D113C4C00A7980A /* Debug */,
+				B96F537C1D113C4C00A7980A /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		B96F537D1D113C4C00A7980A /* Build configuration list for PBXNativeTarget "LYYTextfieldUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				B96F537E1D113C4C00A7980A /* Debug */,
+				B96F537F1D113C4C00A7980A /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = B96F53421D113C4B00A7980A /* Project object */;
+}

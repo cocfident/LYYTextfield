@@ -1,0 +1,81 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="10117" systemVersion="15F34" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" initialViewController="BYZ-38-t0r">
+    <dependencies>
+        <deployment identifier="iOS"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="10085"/>
+    </dependencies>
+    <scenes>
+        <!--View Controller-->
+        <scene sceneID="tne-QT-ifu">
+            <objects>
+                <viewController id="BYZ-38-t0r" customClass="ViewController" sceneMemberID="viewController">
+                    <layoutGuides>
+                        <viewControllerLayoutGuide type="top" id="y3c-jy-aDJ"/>
+                        <viewControllerLayoutGuide type="bottom" id="wfy-db-euE"/>
+                    </layoutGuides>
+                    <view key="view" contentMode="scaleToFill" id="8bC-Xf-vdC">
+                        <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="HUd-Tb-zR1">
+                                <rect key="frame" x="0.0" y="90" width="375" height="100"/>
+                                <subviews>
+                                    <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="FEt-Df-xeK">
+                                        <rect key="frame" x="0.0" y="49.5" width="375" height="1"/>
+                                        <color key="backgroundColor" white="0.66666666666666663" alpha="0.27879849137931034" colorSpace="calibratedWhite"/>
+                                        <constraints>
+                                            <constraint firstAttribute="height" constant="1" id="WXv-yw-uma"/>
+                                        </constraints>
+                                    </view>
+                                    <textField opaque="NO" clipsSubviews="YES" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="left" contentVerticalAlignment="center" textAlignment="natural" minimumFontSize="17" translatesAutoresizingMaskIntoConstraints="NO" id="uOL-ev-Pl4" customClass="LYYTextField">
+                                        <rect key="frame" x="8" y="11" width="359" height="30"/>
+                                        <color key="textColor" red="0.5" green="0.0" blue="0.5" alpha="1" colorSpace="calibratedRGB"/>
+                                        <fontDescription key="fontDescription" type="system" pointSize="14"/>
+                                        <textInputTraits key="textInputTraits"/>
+                                    </textField>
+                                    <textField opaque="NO" clipsSubviews="YES" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="left" contentVerticalAlignment="center" textAlignment="natural" minimumFontSize="17" translatesAutoresizingMaskIntoConstraints="NO" id="Kki-Qp-zzI" customClass="LYYTextField">
+                                        <rect key="frame" x="8" y="58" width="359" height="30"/>
+                                        <fontDescription key="fontDescription" type="system" pointSize="14"/>
+                                        <textInputTraits key="textInputTraits"/>
+                                    </textField>
+                                </subviews>
+                                <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                                <constraints>
+                                    <constraint firstItem="FEt-Df-xeK" firstAttribute="top" secondItem="HUd-Tb-zR1" secondAttribute="top" constant="49.5" id="DRq-FF-sH8"/>
+                                    <constraint firstAttribute="height" constant="100" id="NTB-Av-Geu"/>
+                                    <constraint firstItem="FEt-Df-xeK" firstAttribute="leading" secondItem="HUd-Tb-zR1" secondAttribute="leading" id="Xih-YD-dsE"/>
+                                    <constraint firstAttribute="trailing" secondItem="FEt-Df-xeK" secondAttribute="trailing" id="u7t-dn-sbJ"/>
+                                </constraints>
+                            </view>
+                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="dca-eS-Oyf">
+                                <rect key="frame" x="20" y="221" width="335" height="45"/>
+                                <color key="backgroundColor" red="1" green="0.5" blue="0.0" alpha="1" colorSpace="calibratedRGB"/>
+                                <constraints>
+                                    <constraint firstAttribute="height" constant="45" id="d5B-vu-xhi"/>
+                                </constraints>
+                                <fontDescription key="fontDescription" type="system" pointSize="15"/>
+                                <state key="normal" title="按钮"/>
+                            </button>
+                        </subviews>
+                        <color key="backgroundColor" red="0.90699120576565084" green="0.90699120576565084" blue="0.90699120576565084" alpha="1" colorSpace="calibratedRGB"/>
+                        <constraints>
+                            <constraint firstAttribute="trailing" secondItem="HUd-Tb-zR1" secondAttribute="trailing" id="43c-RC-Fej"/>
+                            <constraint firstItem="dca-eS-Oyf" firstAttribute="top" secondItem="HUd-Tb-zR1" secondAttribute="bottom" constant="31" id="B03-V5-Lza"/>
+                            <constraint firstItem="dca-eS-Oyf" firstAttribute="leading" secondItem="8bC-Xf-vdC" secondAttribute="leading" constant="20" id="H8W-JZ-Pav"/>
+                            <constraint firstItem="HUd-Tb-zR1" firstAttribute="top" secondItem="y3c-jy-aDJ" secondAttribute="bottom" constant="70" id="HnZ-Aj-NPB"/>
+                            <constraint firstItem="HUd-Tb-zR1" firstAttribute="leading" secondItem="8bC-Xf-vdC" secondAttribute="leading" id="exG-rb-UFe"/>
+                            <constraint firstAttribute="trailing" secondItem="dca-eS-Oyf" secondAttribute="trailing" constant="20" id="obG-op-ZhX"/>
+                        </constraints>
+                    </view>
+                    <simulatedScreenMetrics key="simulatedDestinationMetrics" type="retina47"/>
+                    <connections>
+                        <outlet property="text1" destination="uOL-ev-Pl4" id="ac6-DO-Ms5"/>
+                        <outlet property="text2" destination="Kki-Qp-zzI" id="VM6-s6-XQU"/>
+                    </connections>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="dkx-z0-nzr" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="439.5" y="284.5"/>
+        </scene>
+    </scenes>
+</document>
